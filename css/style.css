@@ -1,0 +1,201 @@
+:root{
+    --boz:#666;
+    --purple:#745cf9;
+    
+}
+.txtGray{
+    color: var(--boz);
+}
+.pGray{color: #8c979e;}
+.bgboz{background-color: #f5f5f5;}
+.bgqara{background-color: #000;}
+header{
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    z-index: 99;
+}
+#logo{
+    font: 400 1.5rem "Montserrat";
+}
+menu{
+    display: none;
+    font-size: 1em;
+}
+menu li a{
+    font: 400 1rem "Raleway";
+}
+.burger{
+    display: flex;
+    font-size: 1.5em;
+}
+.wordpress{
+    min-height: 400px;
+    height: 100vh;
+    background: url(../img/ocean.jpg)  center/cover;
+}
+.wordpress  h1{font: 300 2em/2 Raleway;}
+.wordpress  p{font: 300 .7em/1.5 Raleway;}
+
+ .btn{   
+    width: 180px;
+    font: bold .8em "Montserrat";
+    border-radius: 0;
+}
+.btn1{
+    color: #fff;
+    background-color: var(--purple);
+}
+.btn1:hover{
+    color: #fff;
+    background-color: #4f3ead;
+    transition: .5s;
+}
+.btn2{
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid white;
+}
+.macbook{
+    min-height: 700px;
+    height: 100vh;
+}
+.macbook h5{font: 500 1.5em/2 "Raleway";}
+.macbook p{font:400 .75em/2 "Raleway";}
+.portfolio{
+    min-height: 700px;
+    height: 100vh;
+}
+.portfolio h5{font: 500 1.5em/2 "Raleway";}
+.portfolio p{font:400 .75em/2 "Raleway";}
+.parallax{
+        height: 60vh;
+        min-height: 500px;
+        background: url(../img/wave.jpg) center/cover fixed;}
+.parallax h5{font: 2em/2 "Raleway";}
+.parallax p{font: .75em/2 "Raleway";}
+.macbook{
+    min-height: 700px;
+    height: 80vh;
+}
+.h5{font: 2em/3 "Raleway";}
+.p{font: .75em/2 "Raleway";}
+.limitless img{
+    width: 100%;
+}
+.imgWrap img{
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.imgWrap h3{font: 1.8em "Montserrat";}
+.imgWrap p{font: .8em "Montserrat";}
+.box{
+    overflow: hidden;
+}
+.gradient{
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    transition: 2s;
+}
+.imgWrap .box:hover .gradient{
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    transition: 2s;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.156) 42%, rgba(0, 0, 0, 0.786) 90%);
+}
+.imgWrap .box:hover .gradient h5{
+    opacity: initial !important;
+}
+
+.slider{
+    height: 70vh;
+    min-height: 500px;
+    background: url(../img/clouds.jpg) center/cover fixed;
+}
+.slider h3{font: 1.5em "Raleway";}
+.slider p{font: .75em/2 "Raleway";
+          max-width: 700px;
+}
+.slider .img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.slider .img img{
+    object-fit: cover;
+    object-position: center;
+}
+.clients{
+    height: 40vh;
+    min-height: 400px;
+}
+.clients p{font:1.5em "Raleway"}
+.clients img{
+    width: 60px;
+}
+.theme{
+    height: 30vh;
+    min-height: 200px;
+}
+.theme h3{font: 1.5em "Raleway";}
+.btn3{
+    width: 90%;
+    background-color: #745cf9;
+    color: #fff;
+    transition: .3s;
+}
+.btn3:hover{
+    background-color: #4f3ead;
+    color: #fff;
+}
+footer{
+    height: 30vh;
+    min-height: 200px;
+    background-color: #000;
+}
+footer p{font: bold 1em "Raleway"; color: #fff;}
+footer .icons i{color: #fff;}
+.up{
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    background: #000;
+    right: 2%;
+    bottom: 1%;
+}
+.up i{color: #fff;}
+
+@media only screen and (min-width: 768px) {
+    menu{
+        display: flex;
+    }
+    .burger{
+        display: none;
+    }
+    .wordpress  h1{font: 300 4em/1.5 Raleway;}
+    .wordpress  p{font: 300 1em/2 Raleway;}
+    .macbook h5{font: 500 2em/2 "Raleway";}
+    .macbook p{font: .85em/2 "Raleway";}
+    .portfolio h5{font: 500 2em/2 "Raleway";}
+    .portfolio p{font: .85em/2 "Raleway";
+                max-width: 400px;
+    }
+    .parallax h5{font: 500 3.8em/2 "Raleway";}
+    .parallax p{font: 500 .9em/2 "Raleway";}
+    .limitless p{ font-size: 1em;
+        text-align: center;}
+    .btn3{
+        width: 200px;
+        background-color: #745cf9;
+        color: #fff;
+    }
+    .theme h3{font-size:  2.2em ;}
+  }
+  
